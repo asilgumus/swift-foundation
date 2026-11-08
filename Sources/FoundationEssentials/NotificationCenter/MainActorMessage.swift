@@ -15,7 +15,7 @@
 #if FOUNDATION_FRAMEWORK
 internal import _ForSwiftFoundation
 #endif
-#if canImport(os) && !hasFeature(Embedded)
+#if canImport(OSLog) && !hasFeature(Embedded)
 internal import os.log
 #endif
 
